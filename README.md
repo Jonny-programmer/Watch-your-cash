@@ -1,4 +1,4 @@
-# Watch-your-cash
+# Watch your cash!
 The convenient and beautiful designed application created specially for your cost controls 
 
 This application is called "Watch your cash" and it was specially designed for everyone who needs to keep track of their expenses. The application is very light and takes up almost no space, and all your data is stored in a specially developed SQL database for these necessities. So they are not lost when you close the application. The application is absolutely free and it does not use annoying built-in advertising. To make it convenient for you, there are several classic functions provided here: a currency converter and a managed chart of your expenses. 
