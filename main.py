@@ -102,10 +102,10 @@ class Window(QMainWindow):
             self.progress.setValue(count)
             sleep(0.001)
         if os.path.isfile(resource_path("data_files/lang.txt")):
-            with open(resource_path("data_files/lang.txt"), "r") as lang_file:
+            with open(resource_path("data_files/lang.txt"), "r", encoding='utf-8') as lang_file:
                 self.lang = lang_file.readlines()[0].strip()
         else:
-            with open("data_files/lang.txt", "w") as lang_file:
+            with open("data_files/lang.txt", "w", encoding='utf-8') as lang_file:
                 lang_file.write("Русский")
                 self.lang = "Русский"
         # Реальная загрузка (из .ui файла)
