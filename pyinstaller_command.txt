@@ -1,4 +1,4 @@
-pyinstaller --noconsole --clean --windowed --onefile --icon img\icon.png ^
+pyinstaller --noconsole --clean --windowed --onefile --icon icon\icon.png ^
 --add-data "templates\MainWindowTemplate.ui;templates" ^
 --add-data "data_files\currencies_en.csv;data_files" ^
 --add-data "data_files\currencies_ru.csv;data_files" ^
@@ -10,6 +10,6 @@ pyinstaller --noconsole --clean --windowed --onefile --icon img\icon.png ^
 --add-data "backgrounds\vector_5.jpeg;backgrounds" ^
 --add-data "backgrounds\vector_6.jpeg;backgrounds" ^
 --add-data "backgrounds\vector_7.jpeg;backgrounds" ^
---add-data "data_files\a.txt;data_files" ^
+--add-data "data_files\lang.txt;data_files" ^
 --add-data "db\cash_data.db;db" ^
 main.py
